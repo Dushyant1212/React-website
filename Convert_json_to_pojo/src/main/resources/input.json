@@ -1,0 +1,32 @@
+[
+  {
+    "city": "New York",
+    "AQI": 50,
+    "population": 8419600,
+    "area": 783.8
+  },
+  {
+    "city": "Los Angeles",
+    "AQI": 80,
+    "population": 3980400,
+    "area": 1302.0
+  },
+  {
+    "city": "Chicago",
+    "AQI": 40,
+    "population": 2716000,
+    "area": 606.1
+  },
+  {
+    "city": "Mumbai",
+    "AQI": 120,
+    "population": 12442373,
+    "area": 603.4
+  },
+  {
+    "city": "Tokyo",
+    "AQI": 60,
+    "population": 13929286,
+    "area": 2191.0
+  }
+]

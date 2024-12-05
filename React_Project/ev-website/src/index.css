@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}

@@ -1,0 +1,84 @@
+/* Navbar Styles */
+.navbar {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(0, 0, 0, 0.7); /* Slightly darker transparent background */
+    
+}
+.navbar.container{
+    background-color: #00cc99;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00ffcc;
+    letter-spacing: 2px; /* Adds space between letters */
+}
+
+.navbar-brand:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00ffcc !important;
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+.nav-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    letter-spacing: 1px; /* Spacing on button text */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Light shadow for buttons */
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+    background-color: #00cc99; /* Slightly darker hover effect for primary button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.btn-primary {
+    background-color: #00ffcc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00cc99;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+    transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    color: #00ffcc;
+    border-color: #00ffcc;
+    background: rgba(0, 255, 204, 0.1); /* Subtle background on hover */
+}
+
+/* Add Shadow on Scroll */
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Navbar Mobile Responsiveness */
+.navbar-toggler-icon {
+    background-color: #fff; /* Toggler icon color */
+}
